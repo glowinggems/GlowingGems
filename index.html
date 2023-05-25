@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>♡ Glowing Gems ♡</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+	<!-- <script src="main.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="x-icon" href="Images/GEM.jpg">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+<!-- Section Tags -->
+
+    <div class="header">
+        <a href="#" class="logo">
+            <img src="Images/GEM.jpg" alt="">
+        </a>
+        <nav align="left" class="navbar">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <a <button class="dropbtn">Accessories</button> </a>
+                <div class="dropdown-content">
+                    <nav align="left" class="navbar">
+                        <a href="#Rings">Rings</a>
+                        <a href="#Earrings">Earrings</a>
+                        <a href="#Bracelets">Bracelets</a>
+                        <a href="#Necklaces">Necklaces</a>
+                        <a href="#Watches">Watches</a>
+                        <a href="#Hair-Clips">Hair-Clips</a>
+                        <a href="#Hats">Hats</a>
+                        <a href="#Wallets">Wallets</a>
+                </div>
+            </div>
+            <a href="team.html">Team</a>
+			<a href="addcart.html">Add To Cart</a>
+            <a href="contact.html">Contact</a>
+			<a href="about.html">About Us</a>
+        </nav>
+
+
+        <div class="topnav">
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div style="padding-left:16px">
+    </div>
+
+
+    <section class="home" id="Home">
+        <div class="content">
+            <h3>♡ Glowing Gems ♡</h3>
+            <a href="#" class="btn">A Diamond is a Promise!</a>
+        </div>
+        <div class="video-container">
+            <img src="Images/bg.png" />
+        </div>
+    </section>
+    <br>
+
+    <br>
+
+
+    <!-- Slideshow container -->
+
+    <center>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="Images/april.jpg" style="width:100%">
+                <h2><div class="text" style="color:white; text-size:100px;">Birthday in April? Beauty is right here!</div></h2>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="Images/bridal.png" style="width:100%">
+                <h2><div class="text" style="color:white; text-size:100px;">Off to a wedding? Get these fancy ones!</div></h2>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="Images/halo.jpg" style="width:100%">
+                <h2><div class="text" style="color:white; text-size:100px;">Halo Rings that you will desire to buy!</div></h2>
+            </div>
+
+        </div>
+
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </center>
+
+
+    <!-- JS Code for slideshow -->
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+    </script>
+
+    </br>
+
+    <video id="background" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+        <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
+    </video>
+
+
+    
+    <!-- Rings -->
+
+    <section id="Rings">
+        <br>
+        <h1 align="center" class="mcdel" style="color:white;">Rings<hr></h1>
+
+        </div>
+    </section>
+
+    <section class="menu" id="Rings">
+        <div class="line"></div>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://i.postimg.cc/cJ3gPQ4C/ring1.png" class="btnw">
+                <div class="price">
+                    £50.00
+                    <a href="addcart.html" class="btn">Add To Cart</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="https://i.postimg.cc/vTFp3w2D/ring2.png" class="btnw">
+                <div class="price">
+                    £57.00
+                    <a href="addcart.html" class="btn">Add To Cart</a>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Earrings -->
+
+    <section id="Earrings">
+        <br>
+        <h1 align="center" class="mcdel" style="color:white;">Earrings<hr></h1>
+
+        </div>
+    </section>
+
+    <section class="menu" id="Earrings">
+        <div class="line"></div>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://i.postimg.cc/Qtp7KcRw/ear1.png" class="btnw">
+                <div class="price">
+                    £45.00
+                    <a href="addcart.html" class="btn">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://i.postimg.cc/L8CwG1Qc/ear2.png" class="btnw">
+                <div class="price">
+                    £52.00
+                    <a href="addcart.html" class="btn">Add To Cart</a>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Bracelets -->
+
+    <section id="Bracelets">
+        <br>
+        <h1 align="center" class="mcdel" style="color:white;">Bracelets<hr></h1>
+
+        </div>
+    </section>
+
+    <section class="menu" id="Bracelets">
+        <div class="line"></div>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://i.postimg.cc/pdQ8pfN7/brace1.png" class="btnw">
+                <div class="price">
+                    £22.00
+                    <a href="addcart.html" class="btn">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://i.postimg.cc/tT2xz94N/brace2.png" class="btnw">
+                <div class="price">
+                    £7.00
+                    <a href="addcart.html" class="btn">Add To Cart</a>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Necklaces -->
+
+    <section id="Necklaces">
+        <br>
+        <h1 align="center" class="mcdel" style="color:white;">Necklaces<hr></h1>
+
+        </div>
+    </section>
+
+    <section class="menu" id="Necklaces">
+        <div class="line"></div>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://i.postimg.cc/R0mJ5W3T/neck1.png" class="btnw">
+                <div class="price">
+                    £20.00
+                    <a href="addcart.html" class="btn">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://i.postimg.cc/hGKvZNwy/neck2.png" class="btnw">
+                <div class="price">
+                    £38.00
+                    <a href="addcart.html" class="btn">Add To Cart</a>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Watches -->
+
+    <section id="Watches">
+        <br>
+        <h1 align="center" class="mcdel" style="color:white;">Watches<hr></h1>
+
+        </div>
+    </section>
+
+    <section class="menu" id="Watches">
+        <div class="line"></div>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://i.postimg.cc/JnDsjZSM/watch1.png" class="btnw">
+                <div class="price">
+                    £29.00
+                    <a href="addcart.html" class="btn">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://i.postimg.cc/63kycTNR/watch2.png" class="btnw">
+                <div class="price">
+                    £56.00
+                    <a href="addcart.html" class="btn">Add To Cart</a>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Hair-Clips -->
+
+    <section id="Hair-Clips">
+        <br>
+        <h1 align="center" class="mcdel" style="color:white;">Hair-Clips<hr></h1>
+
+        </div>
+    </section>
+
+    <section class="menu" id="Hair-Clips">
+        <div class="line"></div>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://i.postimg.cc/xTSXbk5V/hair1.png" class="btnw">
+                <div class="price">
+                    £6.00
+                    <a href="addcart.html" class="btn">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://i.postimg.cc/Z5wngwSJ/hair2.png" class="btnw">
+                <div class="price">
+                    £17.00
+                    <a href="addcart.html" class="btn">Add To Cart</a>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Hats -->
+
+    <section id="Hats">
+        <br>
+        <h1 align="center" class="mcdel" style="color:white;">Hats<hr></h1>
+
+        </div>
+    </section>
+
+    <section class="menu" id="Hats">
+        <div class="line"></div>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://i.postimg.cc/K8pcQ4Pz/hat1.png" class="btnw">
+                <div class="price">
+                    £13.00
+                    <a href="addcart.html" class="btn">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://i.postimg.cc/SxRkXqBp/hat2.png" class="btnw">
+                <div class="price">
+                    £22.00
+                    <a href="addcart.html" class="btn">Add To Cart</a>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Wallets -->
+
+    <section id="Wallets">
+        <br>
+        <h1 align="center" class="mcdel" style="color:white;">Wallets<hr></h1>
+
+        </div>
+    </section>
+
+    <section class="menu" id="Wallets">
+        <div class="line"></div>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://i.postimg.cc/3wDhB1rS/wallet1.png" class="btnw">
+                <div class="price">
+                    £100.00
+                    <a href="addcart.html" class="btn">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://i.postimg.cc/3R5TbGdK/wallet2.png" class="btnw">
+                <div class="price">
+                    £95.00
+                    <a href="addcart.html" class="btn">Add To Cart</a>
+                </div>
+            </div>
+    </section>
+	
+	
+	<!-- Chat bot -->
+	
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+
+        <!-- Blue colour - #a4effc -->
+</body>
+
+</html>

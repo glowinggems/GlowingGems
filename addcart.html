@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>♡ Add To Cart ♡</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="x-icon" href="Images/GEM.jpg">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<br>
+<br>
+<br>
+<br>
+<br>
+	
+	<div class="header">
+		<a href="#" class="logo">
+            <img src="Images/GEM.jpg" alt="">
+        </a>
+			<nav align="left" class="navbar">
+            <a href="index.html">Home</a>
+				<div class="dropdown">
+		  <a <button class="dropbtn">Accessories</button> </a>
+		  <div class="dropdown-content">
+	    <nav align="left" class="navbar">
+			<a href="#Rings">Rings</a>
+			<a href="#Earrings">Earrings</a>
+			<a href="#Bracelets">Bracelets</a>
+			<a href="#Necklaces">Necklaces</a>
+			<a href="#Watches">Watches</a>
+			<a href="#Hair-Clips">Hair-Clips</a>
+			<a href="#Hats">Hats</a>
+			<a href="#Wallets">Wallets</a>
+	  </div>
+	  </div>
+			<a href="team.html">Team</a>
+			<a href="addcart.html">Add To Cart</a>
+			<a href="contact.html">Contact</a>
+			<a href="about.html">About Us</a>
+        </nav>
+
+		<div class="topnav">
+	<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search..." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+	</div>
+	</div>
+	</div>
+	
+<div style="padding-left:16px">
+</div>
+
+
+    <section class="home" id="Home">
+        <div class="content">
+            <h3>♡ Add To Cart ♡</h3>
+            <a href="#" class="btn">Start Shopping!</a>
+        </div>
+        <div class="video-container">
+            <img src="Images/stage.jpg" />
+        </div>
+    </section>
+	
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+</body>
+</html>
